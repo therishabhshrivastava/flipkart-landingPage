@@ -1,0 +1,86 @@
+.navbar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navLogo{
+    height: 100px;
+    width: 170px;
+    margin-left: -50px;
+}
+
+.logo{
+    background-size: cover;
+    height: 110px;
+    width: 100%;
+}
+
+
+.navSearch{
+    display: flex;
+    justify-content: space-evenly;
+    color: teal;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.searchInput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchIcon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: teal
+}
+
+
+
+
+.navSignin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navSignin > p {
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.dropIcon {
+    font-size: 10px;
+}
+
+.navCart {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.navSeller{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navSeller > p {
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.moredropDown:hover {
+    cursor: pointer;
+}

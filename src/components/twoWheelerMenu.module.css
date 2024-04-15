@@ -1,0 +1,24 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    top: 13rem;
+    right: 10rem;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    z-index: 2;
+}
+
+.dropdownList li {
+    text-align: left;
+    gap: 20px;
+    font-size: 20px;
+}

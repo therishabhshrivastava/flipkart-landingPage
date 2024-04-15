@@ -1,0 +1,45 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    top: 13rem;
+    left: 21rem;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    z-index: 2;
+}
+
+.dropdownList li {
+    text-align: left;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* .dropdownList::before {
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+} */
+
+ /* .dropdown:hover > .dropdownList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    position: absolute;
+    top: 4.5rem;
+    right: 1.5rem;
+    width: 180px;
+    background-color: white;
+ } */

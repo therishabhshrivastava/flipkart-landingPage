@@ -1,0 +1,14 @@
+.header2{
+    
+    display:flex ;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    width: 95%;
+    gap: 40px;
+    font-size: 8px;
+    margin: auto;
+    margin-top: 15px;
+    
+}
